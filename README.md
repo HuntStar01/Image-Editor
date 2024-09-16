@@ -2,6 +2,9 @@
 
 This is a full-stack web application for editing images in real-time. Users can upload an image, adjust brightness, hue, saturation, rotation, crop, and then download the processed image.
 
+## Video of Project
+
+
 ## Features
 
 - Upload an image in **JPEG** or **PNG** format.
