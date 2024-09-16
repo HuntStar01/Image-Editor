@@ -79,23 +79,7 @@ The frontend will run at http://localhost:3000.
     Once you are happy with the result, click the Download button to save the edited image.
 
 
-### Project Structure ###
 
-├── backend
-│   ├── uploads               # Directory to store uploaded images
-│   ├── server.js                # Main server file
-│   └── package.json          # Backend dependencies
-│
-├── frontend
-│   ├── public
-│   ├── src
-│   │   ├── App.js            # Main React component
-│   │   ├── ImageEditor.js     # Image editing component
-│   │   └── App.css           # Custom styles
-│   └── package.json          # Frontend dependencies
-│
-├── README.md                 # Project README file
-└── .gitignore                # Files to ignore in version control
 
 ### API Endpoints ###
 
