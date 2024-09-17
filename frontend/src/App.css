@@ -341,6 +341,15 @@ input[type="range"]:active::-webkit-slider-thumb {
   }
 }
 
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.animated-logo {
+  width: 150px;
+  height: auto;
+}
 
 
 
