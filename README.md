@@ -2,6 +2,11 @@
 
 This is a full-stack web application for editing images in real-time. Users can upload an image, adjust brightness, hue, saturation, rotation, crop, and then download the processed image.
 
+## Photos of Project
+![Screenshot 2024-09-17 203007](https://github.com/user-attachments/assets/8f79413c-17c0-4ef9-843f-347fac5f7ae8)
+![Screenshot 2024-09-17 203100](https://github.com/user-attachments/assets/c7769d6d-3879-427f-9c8d-648bc575f057)
+
+
 ## Video of Project
 
 
