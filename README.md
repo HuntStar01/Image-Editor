@@ -69,17 +69,18 @@ This is a full-stack web application for editing images in real-time. Users can 
 4. **Start the Frontend React App**:
 
     ## In the frontend folder, run:
+        cd frontend
         npm start
 
 
 The frontend will run at http://localhost:3000.
 
 ## Running the Application
-    Visit http://localhost:3000 in your browser.
-    Use the upload button to upload an image in either JPEG or PNG format.
-    Adjust the brightness, hue, saturation, and rotation of the image using the sliders.
-    Use the Reset button to revert the image to its original state.
-    Once you are happy with the result, click the Download button to save the edited image.
+ Visit http://localhost:3000 in your browser.
+ Use the upload button to upload an image in either JPEG or PNG format.
+ Adjust the brightness, hue, saturation, and rotation of the image using the sliders.
+ Use the Reset button to revert the image to its original state.
+ Once you are happy with the result, click the Download button to save the edited image.
 
 
 
@@ -87,21 +88,21 @@ The frontend will run at http://localhost:3000.
 ### API Endpoints ###
 
 ## Image Upload
-    POST /upload
-    Upload an image (JPEG or PNG) and store it on the server.
-    Returns the URL of the uploaded image.
+ POST /upload
+ Upload an image (JPEG or PNG) and store it on the server.
+ Returns the URL of the uploaded image.
 
 ## Image Processing
-    GET /process-image
-    Apply adjustments to the uploaded image such as brightness, hue, saturation, and rotation.
-    Returns the processed image blob.
+ GET /process-image
+ Apply adjustments to the uploaded image such as brightness, hue, saturation, and rotation.
+ Returns the processed image blob.
 
 ### Error Handling ###
-    If an invalid file format is uploaded (anything other than JPEG or PNG), an error message will pop up asking the user to upload a valid file.
-    Errors while processing or downloading the image will be logged in the browser console.
+ If an invalid file format is uploaded (anything other than JPEG or PNG), an error message will pop up asking the user to upload a valid file.
+ Errors while processing or downloading the image will be logged in the browser console.
     
 ### Future Enhancements ###
-    Add more image manipulation features like contrast adjustment, cropping, and filters.
-    Improve the cropping tool by allowing users to select custom regions.
-    Add the ability to apply multiple layers of editing (e.g., adding text or sticker
+ Add more image manipulation features like contrast adjustment, cropping, and filters.
+ Improve the cropping tool by allowing users to select custom regions.
+ Add the ability to apply multiple layers of editing (e.g., adding text or sticker
 
