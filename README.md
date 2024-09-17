@@ -56,12 +56,21 @@ https://github.com/user-attachments/assets/322dd3ec-51b9-4a13-a6a3-80142134300d
     ## Install backend dependencies:
         cd backend
         npm install
+        npm install express
+        npm install multer
+        npm install path
+        npm install sharp
+        npm install cors
+
 
     ## Install frontend dependencies:
         cd frontend
         npm install
+        npm install react-lottie
+        npm install axios
 
-3. **Start the Backend Server**:
+
+4. **Start the Backend Server**:
 
     ## In the root of your project, run:
         cd backend
@@ -70,7 +79,7 @@ https://github.com/user-attachments/assets/322dd3ec-51b9-4a13-a6a3-80142134300d
 
     The backend server will start at http://localhost:5000.
 
-4. **Start the Frontend React App**:
+5. **Start the Frontend React App**:
 
     ## In the frontend folder, run:
         cd frontend
