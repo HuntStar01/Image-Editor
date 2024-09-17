@@ -5,6 +5,10 @@ This is a full-stack web application for editing images in real-time. Users can 
 ## Video of Project
 
 
+https://github.com/user-attachments/assets/322dd3ec-51b9-4a13-a6a3-80142134300d
+
+
+
 ## Features
 
 - Upload an image in **JPEG** or **PNG** format.
